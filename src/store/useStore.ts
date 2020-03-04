@@ -1,6 +1,6 @@
 import { RootStore } from './RootStore'
 import { useContext } from 'react';
-import { StoreContext } from './stores';
+import { StoreContext } from './StoreProvider';
 
 
 

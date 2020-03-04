@@ -1,0 +1,44 @@
+.flex {
+  display: flex;
+  &.coulmn {
+    flex-direction: column;
+  }
+  &.space-between {
+    justify-content: space-between;
+  }
+  &.justify-center {
+    justify-content: center;
+  }
+}
+.text-center {
+  text-align: center;
+}
+.align-center {
+  align-items: center;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  height: 12px;
+  width: 14px;
+  z-index: 12;
+  overflow: visible;
+}
+::-webkit-scrollbar-thumb {
+  width: 10px;
+  background-color: #aaaebf;
+  border-radius: 8px;
+  z-index: 12;
+  border: 4px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  margin: 4px;
+  min-height: 32px;
+  min-width: 32px;
+}
